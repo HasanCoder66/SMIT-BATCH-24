@@ -1,0 +1,49 @@
+/* universal selector */
+
+* {
+    /* margin: 0px; */
+}
+
+body {
+    /* background-color: black; */
+}
+
+
+h1, h2{
+    color: yellow;
+    font-size: 42px ;
+}
+
+.three{
+    background-color: blueviolet;
+}
+
+
+/* # */
+
+/* id ko select kerny ke liye  */
+
+#heading {
+
+    color: purple;
+}
+
+
+div > p {
+   color: red; 
+}
+
+
+div span {
+    font-size: 32px;
+}
+
+
+div+span{
+    background-color: brown;
+}
+
+
+h1~span{
+    background-color: yellow;
+}
