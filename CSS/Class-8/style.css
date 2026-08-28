@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* @font-face {
+    font-family: Roboto;
+    src: url("font/Roboto-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+    font-family: RobotoItalic;
+    src: url("font/Roboto-Italic-VariableFont_wdth\,wght.ttf");
+} */
+
+
+
+
+html {
+    /* font-size: 32px; */
+}
+
+
+*{
+    background-color: black;
+    /* font-size: 64px; */
+    /* color:rgba(100, 100, 90, ); */
+    color: white;
+    /* font-family:  sans-serif;   */
+    
+}
+
+/* universal selector */
+
+
+h1{
+    /* font-size: 0.25rem; */
+    font-weight: black;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+/* type selector */
+
+p{
+ color: yellow; 
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+}
+
+
+/* id selector */
+
+#hero{
+    height: 750px;
+    background-color: red;
+}
+
+
+
+/* class selector */
+
+.box{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #2a2a2a;
+    color: white;
+    font-family: RobotoItalic;
+}
+
+/* child selector */
+
+section > .second{
+    background-color: blue;
+}
+
+
+#uniqueBox {
+    background-color: purple;
+}
+
+/* general sibling selector */
+/* adjacent selector */
+/* decendant selector */
