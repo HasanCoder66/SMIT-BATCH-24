@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+
+h1{
+    font-size: 20px;
+    text-shadow: -5px -5px 10px red;
+}
+
+p{
+    /* background-color: red;
+    color: yellow; */
+    /* text-transform: capitalize; */
+    text-decoration: line-through;
+
+    /* line-height: 20px; */
+
+    /* height: 100px;
+    background-color: black; */
+    color: black;
+
+    /* letter-spacing: 10px; */
+    word-spacing: 10px;
+    /* vertical-align: text-top; */
+    text-indent: 50px;
+    /* text-align: center; */
+
+}
+
+/* p::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+#first-word{
+    color: yellow;
+} */
+
+
+a:link{
+    color: red;
+}
+
+a:hover{
+    /* color: yellow; */
+}
+
+a:visited{
+    color: black;
+}
+
+
+input:hover{
+background-color: blue;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+
+button:active{
+    background-color: red;
+}
+
+
+
+button{
+    /* margin-left: 20px; */
+}
+
+
+#one{
+    background-color: blue;
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+    display:none;
+    
+    /* border-width: 2px; */
+
+    /* border-top-width: 10px;
+    border-style: dashed;
+    border-color: red;
+    border-top-color: yellow; */
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    /* overflow-x: scroll; */
+}
+
+ul {
+   /* display: inline-block; */
+}
+
+li{
+    background-color: blue;
+    margin: 10px 20px;
+    display: inline;
+    
+
+     list-style: circle;
+}
+
+#coming-soon {
+    /* display: none; */
+    visibility: hidden;
+}
+
+
+#two{
+    /* min-width: 450px; */
+    /* max-width: 100px; */
+
+    /* min-height: 200px; */
+    max-height: 200px;
+    background-color: black;
+    height: 100px;
+
+    visibility: hidden;
+
+}
+
+#three{
+    background-color: red;
+    height: 200px;
+    display: inline-block;
+    width: 200px;
+}
