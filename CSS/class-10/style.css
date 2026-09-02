@@ -1,0 +1,134 @@
+*{
+    margin: 10px;
+}
+
+#parent{
+    /* background-color: black; */
+    /* margin-top: 10px ; */
+    /* padding: 20px 10px 50px 100px; */
+    /* height: 800px; */
+    
+}
+
+body{
+    /* background-color: black; */
+}
+
+.box{
+
+    display: inline-block;
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin-top: 20px;
+    border-radius: 50%;
+
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */
+
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+ol {
+    /* list-style-image: url("https://cdn-icons-png.flaticon.com/256/1828/1828884.png") ; */
+/* background-color: black;
+color: white; */
+    list-style-position: outside;
+}
+
+
+/* table {
+width: 600px;}
+th, td {
+padding: 7px 10px 10px 10px;}
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 90%;
+border-bottom: 2px solid #111111;
+border-top: 1px solid #999;
+text-align: left;}
+tr.even {
+background-color: #efefef;}
+
+
+tr:hover{
+    background-color: red;
+}
+
+.money {
+text-align: right;} */
+
+/* 
+table, tr , td{
+    border: 2px solid black;
+    width: 500px;
+}
+
+
+.money {
+    background-color: red;
+    color: white;
+}
+
+.even {
+    text-transform: uppercase;
+}
+
+.captialize{
+    text-transform: capitalize;
+}
+
+.my-border {
+    
+    border-top: 10px solid red;
+  background-color: yellow; 
+} */
+
+
+table {
+    border: 2px solid black;
+    empty-cells: hide;
+
+    border-collapse: collapse;
+}
+ tr, td {
+    border: 2px solid black;
+
+}
+
+
+#username {
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+    padding-left: 10px;
+}
+
+
+#username:focus {
+/* outline: none; */
+outline-color: blue;
+
+}
+
+
+button {
+    cursor: all-scroll;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    border: none;
+}
+
+button:hover{
+    background-color:black ;
+}
