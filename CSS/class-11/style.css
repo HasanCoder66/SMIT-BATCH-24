@@ -1,0 +1,83 @@
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    z-index: 1000;
+    /* right: 50px;
+    top: 50px; */
+    /* right: 0px; */
+    /* bottom: 0px; */
+    /* top: 50px; */
+    /* bottom: 100px; */
+
+
+
+    
+}
+#box-1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+   position: absolute;
+
+z-index: 1001;
+
+
+    
+}
+
+
+#pappaofBox {
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+
+
+.whatsapp-img{
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+}
+
+
+#input-parent {
+    background-color: red;
+    height: 500px;
+    position: relative;
+    border: 2px solid yellow;
+    
+}
+
+
+#input-parent > input{
+    width: 400px;
+    height: 60px;
+    padding-left: 20px;
+
+}
+
+#input-parent > img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+
+nav {
+    position: fixed;
+    /* z-index: 2000; */
+    top: 0px;
+    left: 0px;
+    background-color: gray;
+    width: 100%;
+}
+
+#paragraph {
+    position: static;
+    z-index: 50000
+}
