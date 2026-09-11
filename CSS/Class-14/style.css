@@ -1,0 +1,56 @@
+:root {
+   --text-white:white; 
+   --bg-color: gray;
+   --dark-bg-color:#2a2a2a;
+}
+
+*{
+    margin: 0px;
+    /* color: var(--text-white); */
+}
+
+
+body {
+    background-color: var(--bg-color);
+    
+}
+
+
+.red{
+    color: red;
+}
+
+
+.orange{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div{
+    background-color: var(--dark-bg-color);
+    color: var(--text-white);
+}
