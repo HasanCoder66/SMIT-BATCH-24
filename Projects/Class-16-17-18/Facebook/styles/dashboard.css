@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #fff;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center ;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+#fb-logo-search-bar {
+    display: flex;
+    align-items: center ;
+    gap: 10px;
+}
+
+#searchBox {
+    width: 250px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+#searchBox > i {
+position: absolute;
+left: 5px;
+}
+#searchBox > input {
+width: 100%;
+height: 35px;
+padding-left: 30px;
+border-radius: 20px;
+border: 1px solid gray;
+}
+
+
+#button-icons {
+    
+}
+
+#button-icons > button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+#button-icons > button > i {
+   font-size: 25px;
+}
+
+#button-icons > button:hover {
+    background-color: rgb(224, 223, 223);
+    border-radius: 10px;    
+}
+
+
+#settings-area {
+display: flex;
+align-items: center;
+gap: 3px;
+}
+
+#settings-area > button {
+width: 50px;
+height: 50px;
+
+border-radius: 50%;
+border: none;
+}
+#settings-area > button:hover {
+cursor: pointer;
+}
+#settings-area > button > i {
+font-size: 20px;
+}
+
+#circle-parent {
+    position: relative;
+}
+
+#circle {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    font-weight: bold;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-area {
+    
+    height: 500px;
+    display: flex;
+}
+
+/* left sidebar css */
+
+#left-sidebar{
+    flex: 1;
+    padding: 10px 0px 5px 5px;
+    height: 668px;
+    overflow: auto;
+}
+
+
+.sidebar-item {
+    /* background-color: red; */
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.sidebar-item:hover{
+    background-color: rgb(227, 227, 227);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sidebar-item > img, #box-1 > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+#feed-area{
+    flex: 2.5;
+    height: 100%;
+    padding: 20px  150px;
+    
+
+}
+
+
+#feed-header {
+    display: flex;
+    padding: 10px 25px;
+    justify-content: space-between;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     align-items: center;
+     border-radius: 10px;
+
+}
+
+#box-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#box-1 > button {
+    width: 320px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#upload-icons > button {
+    background-color: #fff;
+    border: none;
+    width: 50px;
+    height: 50px;
+
+}
+
+#upload-icons > button  > i {
+   font-size: 20px;
+
+}
+#upload-icons > button:hover {
+   border-radius: 50%;
+   background-color: rgb(227, 224, 224);
+   cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+#right-sidebar {
+      flex: 1;
+    padding: 10px 0px 5px 5px;
+    height: 668px;
+    overflow: auto;
+}
+
+
+
