@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+#container {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form {
+  width: 600px;
+  border-radius: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  padding: 20px;
+}
+
+.signup-header > a > i {
+  font-size: 20px;
+}
+
+.signup-header > h1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.signup-header > p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#meta-logo {
+  margin-top: 10px;
+  display: flex;
+}
+
+#meta-logo > img {
+  height: 20px;
+  width: 20px;
+}
+
+#name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#inputBox {
+  width: 100%;
+  gap: 25px;
+  display: flex;
+
+  /* justify-content: space-between; */
+}
+
+#inputBox > #firstName,
+#inputBox > #surName {
+  width: 47%;
+}
+
+#firstName > input,
+#surName > input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  border: 2px solid gray;
+}
+
+#dob-icon,
+#dob {
+  margin: 10px 0px;
+}
+
+#dob {
+  display: flex;
+  justify-content: space-between;
+}
+
+#dob > select {
+  width: 32%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#gender > select {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#mobile-email-box {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+#mobile-email-box > #email-mob {
+  width: 100%;
+}
+
+#email-mob > input,
+#password > input {
+  height: 40px;
+  width: 98%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+#mobile-email-heading,
+#password-heading {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#extra-info {
+  margin-top: 10px;
+}
+
+#extra-info > p {
+  margin-bottom: 10px;
+}
+
+#submit-button {
+  width: 100%;
+}
+
+#submit-button > button {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(24, 119, 242);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+#login-button {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#login-button > button {
+  width: 100%;
+  height: 40px;
+  color: rgba(24, 119, 242);
+
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 50px;
+border: none;
+  cursor: pointer;
+}
+
+#login-button > button:hover {
+  background-color: rgb(201, 200, 200);
+}
+#login-button > button > a {
+  color: black;
+  text-decoration: none;
+}
