@@ -3,6 +3,7 @@
 }
 #container {
     display: flex;
+    width: 100%;
 }
 
 
@@ -15,7 +16,7 @@
     align-items: center;
     padding: 20px;
     position: relative;
-    border-right: 10px solid black;
+    
 }
 
 #fb-small-logo {
@@ -167,4 +168,73 @@ font-weight: 400;
 height: 20px;
 width: 20px;
     
+}
+
+#hidden {
+    display: none;
+}
+
+
+@media only screen and (max-width:1024px){
+
+    #right-box {
+        width: 100%;
+    }
+    #inputBoxes {
+    /* background-color: purple; */
+    width: 350px;
+   
+    
+}
+
+#left-box {
+    flex-direction: column;
+}
+
+#left-box > div > img {
+    height: 500px;
+    width: 350px;
+}
+
+
+#fb-small-logo {
+      
+
+    top: 550px;
+ }
+}
+
+
+@media only screen and (max-width:768px){
+    #inputBoxes {
+    /* background-color: purple; */
+    width: 500px;
+   
+    
+}
+
+#hidden {
+    display: block;
+    width: 120px;
+
+}
+
+#left-box  {
+   display: none;
+}
+
+}
+
+
+@media only screen and (max-width:425px){
+#right-box {
+    padding: 50px;
+}
+
+    #inputBoxes {
+    /* background-color: purple; */
+    width: 100%;
+   
+    
+}
 }

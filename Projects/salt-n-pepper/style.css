@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+}
+
+#box-2 >  h3 {
+    padding-top: 10px;
+}
+
+#box-2{
+    display: flex;
+    column-gap: 25px;
+}
+
+button {
+    border-radius: 150px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: red;
+}
+
+
+#banner {
+    background-image: url("https://static.tossdown.com/images/a11c8ba0-8639-46c0-b1a7-808c7c013996.webp");
+    /* background-color: red;   */
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
