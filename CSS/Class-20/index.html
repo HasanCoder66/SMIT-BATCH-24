@@ -5,7 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Queries</title>
 </head>
+
+
+<style>
+
+/* 
+body {
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+} */
+
+
+body {
+    height: 100vh;
+}
+
+
+#container {
+    background-color: beige;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child {
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+}
+
+/* @media only screen and (max-width:768px){
+
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width:576px){
+
+    body {
+        background-color: purple;
+    }
+} */
+
+
+@media only screen and (max-width:768px){
+    /* body {
+        margin: 100px;
+    } */
+    #container {
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+   .child {
+    width: 400px;
+    
+   }
+}
+
+
+@media only screen and (max-width:576px){
+.child {
+    width: 100%;
+}   
+}
+
+
+</style>
 <body>
-    <h1>Media Queries</h1>
+   
+    <div id="container">
+        <div class="child">one</div>
+        <div class="child">two</div>
+        <div class="child">three</div>
+    </div>
 </body>
 </html>

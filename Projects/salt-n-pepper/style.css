@@ -37,3 +37,9 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+
+#pappa {
+    display: flex;
+}
