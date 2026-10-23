@@ -135,3 +135,5 @@ let b = 8;
 // 24
 // var result = ((2 * 6) * (10 % 4))
 // console.log(result);
+
+
