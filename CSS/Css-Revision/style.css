@@ -1,0 +1,33 @@
+#dabba {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+
+#dabba:hover{
+    /* transition-property: background-color;
+    transition-delay: 2s;
+    transition-duration: 2s;
+    background-color: red; */
+}
+
+
+#button {
+    width: 100px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#button:hover {
+    /* transition: all 2s;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out; */
+    transform: skew(120deg)
+}
